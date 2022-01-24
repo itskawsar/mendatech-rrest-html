@@ -160,3 +160,10 @@ footer {
     right: 1rem;
     bottom: 1rem;
 }
+
+
+/* page */
+/* about */
+.what-is img {
+    max-width: 300px;
+}
