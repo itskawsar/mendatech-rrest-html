@@ -165,7 +165,7 @@ h4 {
     border-style: solid;
     background-size: cover;
     /* text-align: center; */
-    padding: 100px 0;
+    padding: 30px 0;
 }
 
 .feat-img .content {
@@ -275,4 +275,111 @@ footer {
     border-color: rgb(226, 226, 226);
     border-style: solid;
     background-size: cover;
+}
+.secret-bg h3 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+/* pricing */
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    min-height: 100vh;
+    min-width: 100vh;
+    -webkit-transform-style: preserve-3d;
+    background-size: cover;
+}
+
+.bg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+
+.pricing-table .title {
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 700;
+    overflow: hidden;
+}
+
+.strikethrough:before {
+    position: absolute;
+    max-width: 117px;
+    content: "";
+    left: 0;
+    top: 50%;
+    margin: auto;
+    right: 0;
+    border-top: 3px solid;
+    border-color: #e64623;
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+}
+
+.price {
+    text-align: center;
+    color: rgb(31, 143, 255);
+    font-size: 36px;
+    font-weight: bold;
+    --fontSize: 36;
+    line-height: 1;
+    --minFontSize: 36;
+}
+
+.regular-price {
+    width: 120px;
+    margin: auto;
+}
+
+.discount-off {
+    position: absolute;
+    right: -61%;
+    top: -61%;
+}
+
+.off {
+    text-align: left;
+    color: rgb(230, 70, 35);
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    --fontSize: 16;
+    --minFontSize: 16;
+}
+
+.text-red {
+    color: rgb(230, 70, 35);
+}
+.check-list ul {
+    padding-left: 20px;
+}
+.check-list li {
+    padding-left: 10px;
+}
+
+li.checks::marker {
+    content: "✔";
+    color: #1f8fff;
+}
+
+.bg-white-alpha {
+    background-color: rgba(255,255,255,0.8);
+}
+
+
+.carousel-control-next, .carousel-control-prev {
+    justify-content: flex-end;
+}
+.carousel-control-prev {
+    justify-content: flex-start;
 }
