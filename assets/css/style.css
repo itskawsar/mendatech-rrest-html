@@ -24,6 +24,7 @@ h2 {
 }
 
 h3 {
+    font-family: 'Bebas Neue', cursive;
     font-size: 32px;
     line-height: 1.5;
 }
@@ -85,12 +86,12 @@ h4 {
 .mb-10 {
     margin-bottom: 6rem;
 }
-.font-lato {
+/* .font-lato {
     font-family: 'Lato', sans-serif;
-}
-.font-bebas {
+} */
+/* .font-bebas {
     font-family: 'Bebas Neue', cursive;
-}
+} */
 .align-items-center {
     display: flex;
     /* align-items: center; */  /*Aligns vertically center */
@@ -109,6 +110,10 @@ h4 {
     background-color: rgba(255,255,255,0.5);
 }
 .bg-light-semi {
+    background-color: rgba(245,245,245);
+}
+}
+.bg-light-semi-alpha {
     background-color: rgba(245,245,245,0.25);
 }
 .bg-brand-secendary {
@@ -190,12 +195,28 @@ h4 {
 footer {
     background-color: #382f2e;
 }
+.social-icons .icon {
+    width: 40px;
+    height: 40px;
+    display: inline-block !important;
+    text-align: center;
+}
+.social-icons .icon:hover {
+    color: black;
+}
+.social-icons .icon svg {
+    vertical-align: -webkit-baseline-middle;
+    vertical-align: -moz-middle-with-baseline;
+    font-size: 1.1333333333em;
+}
 
 
 .goto-top {
     position: fixed;
     right: 1rem;
     bottom: 1rem;
+    padding: 10px 13px;
+    cursor: pointer;
 }
 
 
@@ -243,12 +264,16 @@ footer {
     background-size: cover;
     height: calc(100vh - 32px);
 }
-
+.video-play {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
 .video-play svg {
     width: 48px;
     height: 48px;
     fill: white;
-    padding-left: 5px;
+    padding: 10px 20px;
 }
 
 .img-bg {
