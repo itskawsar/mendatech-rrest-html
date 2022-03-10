@@ -86,9 +86,10 @@ h4 {
 .mb-10 {
     margin-bottom: 6rem;
 }
-/* .font-lato {
+/* .font-lato { */
+small {
     font-family: 'Lato', sans-serif;
-} */
+}
 /* .font-bebas { */
 .counter, .wid-title {
     font-family: 'Bebas Neue', cursive;
