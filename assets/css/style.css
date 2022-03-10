@@ -89,9 +89,10 @@ h4 {
 /* .font-lato {
     font-family: 'Lato', sans-serif;
 } */
-/* .font-bebas {
+/* .font-bebas { */
+.counter, .wid-title {
     font-family: 'Bebas Neue', cursive;
-} */
+}
 .align-items-center {
     display: flex;
     /* align-items: center; */  /*Aligns vertically center */
