@@ -383,3 +383,86 @@ li.checks::marker {
 .carousel-control-prev {
     justify-content: flex-start;
 }
+
+/*.testimonials-slider .slick-slide:nth-child(odd) {
+    background-color: green;
+}
+
+.testimonials-slider .slick-slide:nth-child(even) {
+    background-color: skyblue;
+}*/
+
+.testimonials {
+    background-color: rgba(245,245,245,0.25);
+    background-image: linear-gradient(45deg, #0b2ca9 0%,#1f8fff 100%);
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-width: 0px 0px 0px 0px;
+    border-color: #e2e2e2;
+    border-style: solid;
+}
+.testimonial-content {
+    opacity: .7;
+    transform: translate3d(0px, 0px, 0px) scale(0.85, 0.85);
+    z-index: 102;
+    /* width: 300px; */
+    height: 450px;
+    padding: 0px 0px;
+    position: relative;
+    transition: all .3s cubic-bezier(0.45, 0.05, 0.55, 0.95);
+    /*transition: transform .3s ease-in-out;*/
+}
+.slick-center.slick-current .testimonial-content {
+    transform: translate3d(0px, 0px, 0px);
+    opacity: 1;
+    transition: all .5s ease-in-out;
+    /*transition: opacity .3s cubic-bezier(0.45, 0.05, 0.55, 0.95);*/
+}
+.slide-background {
+    position: relative;
+}
+.slide-background-image img {
+    width: 100%;
+}
+.slide-inner {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    transition: bottom .3s cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+.slick-center.slick-current .slide-inner {
+    bottom: 25px;
+    transition: bottom .2s ease-in-out;
+}
+.slide-background-color {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: linear-gradient(to bottom, RGBA(255,255,255,0) 0%,RGBA(11,44,169,0.66) 100%);
+}
+.slide-inner img {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    /* margin-bottom: 10px; */
+}
+.slide-inner p.paragraph {
+    font-family: 'Lato';
+    color: #ffffff;
+    font-size: 100%;
+    text-shadow: none;
+    line-height: 1.5;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    font-weight: 400;
+    text-align: center;
+}
+.slick-slide {
+    margin-bottom: 40px;
+}
